@@ -1,0 +1,76 @@
+.container {
+  min-height: 100vh;
+  
+  padding: 60px 20px;
+  color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  font-size: 2.8rem;
+  text-align: center;
+  font-weight: 700;
+  color: #facc15;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.title::after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background: #facc15;
+  display: block;
+  margin: 10px auto 0;
+}
+
+.text {
+  max-width: 850px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  color: #cbd5e1;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #7dd3fc;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #7dd3fc;
+  padding-bottom: 4px;
+}
+
+.skillsSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.skillsSection h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: #7dd3fc;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  font-size: 1.8rem;
+  color: #e2e8f0;
+}
+
+.icons svg:hover {
+  color: #facc15;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}

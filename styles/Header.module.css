@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute; /* ✅ collé en haut de l'image */
+  top: 0;
+  left: 0;
+  z-index: 10;
+  color: white;
+  background: transparent; /* ✅ plus de gris */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/* ✅ Media Query pour mobile */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+
+  .header h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}

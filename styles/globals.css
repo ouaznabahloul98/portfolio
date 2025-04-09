@@ -1,0 +1,16 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    background: linear-gradient(to right, #5c6375, #465265); 
+    height: 100%;
+    overflow-x: hidden; 
+    font-family: 'Segoe UI', sans-serif;
+    background-color: rgb(253, 253, 253); 
+  }
+  
