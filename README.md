@@ -10,7 +10,7 @@ Ce projet met en avant mes compétences en **développement web frontend**, **de
 -  Redux Toolkit (auth, témoignages)
 -  TailwindCSS / CSS Modules
 -  EmailJS pour le formulaire de contact
-## 📸 Aperçus des pages
+##  Aperçus des pages
 
 ### Page d'accueil
 ![accueil](./captures/1.png)
